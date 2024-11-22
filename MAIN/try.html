@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .scrolling-container {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      background-color: #f5f5dc;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .scrolling-content {
+      display: inline-block;
+      animation: scroll 20s linear infinite;
+    }
+
+    .scrolling-content img {
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(90%);
+      }
+      to {
+        transform: translateX(-90%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scrolling-container">
+    <div class="scrolling-content">
+      <img src="Assets/Vector.png" alt="Zapier">
+      <img src="Assets/Vector (1).png" alt="Spotify">
+      <img src="Assets/Vector (2).png" alt="Zoom">
+      <img src="Assets/Logo.png" alt="Amazon">
+      <img src="Assets/Card (3).png" alt="Notion">
+      <img src="Assets/Logo (1).png" alt="Netflix">
+    </div>
+  </div>
+
+</body>
+</html>
